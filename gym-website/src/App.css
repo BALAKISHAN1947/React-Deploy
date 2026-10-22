@@ -1,0 +1,39 @@
+@import url('https://img.magnific.com/premium-photo/dark-gym-background_985815-1041.jpg?semt=ais_hybrid&w=740&q=80');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s ease;
+} 
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer {
+  background: #090909;
+  padding: 25px;
+  color: #aaa;
+  text-align: center;
+  font-size: 0.9rem;
+}
